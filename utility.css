@@ -1,0 +1,37 @@
+.songItems{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 0px 9px;
+    padding: 4px 6px;
+}
+
+.songName{
+    width: 322px;
+    text-align: center;
+}
+
+.covers{
+    width: 35px;
+    margin-left: 8px;
+    margin-top: 2px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.Team{
+    color: white;
+}
+.theader{
+    text-align: center;
+}
+.members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 10px;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
